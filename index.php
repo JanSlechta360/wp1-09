@@ -18,6 +18,7 @@ $damage= 0;
 </head>
       <body>
     <?php
+     
          do {
             $damage = rand(MIN_DAMAGE, MAX_DAMAGE);
             $HP= $HP- $damage;
